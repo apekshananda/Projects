@@ -19,4 +19,4 @@ In our loan approval prediction project, we employed the CART algorithm to build
 
 - CheapFare Airline Reservation Relational Database
 
-Designing and implementing a relational database for CheapFare, an airline reservation company specializing in domestic and international flight bookings. The goal was to create a robust database system to manage bookings, flights, e-tickets, travelers, and other relevant entities efficiently.
+Our group was tasked with designing and implementing a relational database for CheapFare, an airline reservation company specializing in domestic and international flight bookings. The goal was to create a robust database system to manage bookings, flights, e-tickets, travelers, and other relevant entities efficiently.Designing and implementing a relational database for CheapFare, an airline reservation company specializing in domestic and international flight bookings. The goal was to create a robust database system to manage bookings, flights, e-tickets, travelers, and other relevant entities efficiently.
