@@ -16,3 +16,7 @@ I adeptly implemented the K-means clustering algorithm, a potent tool for unsupe
 - Classification and Regression Trees
 
 In our loan approval prediction project, we employed the CART algorithm to build a decision tree using features such as Debt to Income Ratio, FICO score, and Request Amount. Guided by the Gini index, we systematically reduced features at each node, optimizing splits for enhanced model simplicity. This approach facilitated the creation of a streamlined decision tree that not only predicted loan approval but also provided a clear understanding of the most influential features in the decision-making process.
+
+- CheapFare Airline Reservation Relational Database
+
+Designing and implementing a relational database for CheapFare, an airline reservation company specializing in domestic and international flight bookings. The goal was to create a robust database system to manage bookings, flights, e-tickets, travelers, and other relevant entities efficiently.
