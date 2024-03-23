@@ -1,0 +1,76 @@
+body{
+    text-align: center;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif
+}
+header{
+    background-color:salmon;
+    border-bottom:salmon solid;
+    color:aliceblue;
+    font-size:15px;
+    padding-top: 10px;
+    padding-bottom: 20px;
+}
+input{
+    width:30%;
+    padding:7px;
+    border: 0px;
+}
+img{
+    height:100px;
+    width:100px;
+}
+header>form>button{
+    padding: 7px;
+    margin-left: -5px;
+    width:120px;
+    border:0px;
+}
+section{
+    display:flex;
+    justify-content:space-between;
+    margin-left: 400px;
+    margin-right: 40px;
+}
+section>form>button{
+    padding-left: 12px;
+    padding-right: 12px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+
+}
+section>form>select{
+    border-radius: 13px;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+}
+div{
+    
+    border:1px solid black;
+    text-align: left;
+    margin-left:200px;
+    margin-right:200px;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding-left: 40px;
+    padding-bottom: 13px;
+}
+
+div>p{
+    font-weight: bold;
+}
+div>form>button{
+    border:1px solid grey;
+    border-radius: 5px;
+    background-color: white;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+div>form>p{
+    background-color: yellow;
+    font-weight: bold;
+    font-style: italic;
+    padding:10px;
+}
