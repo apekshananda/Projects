@@ -1,0 +1,13 @@
+{
+  "name": "rentals-apeksha",
+  "version": "1.0.0",
+  "description": "Using Node, Express, and Handlebars, create a server-side application that enables a user to rent items from a store.",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "keywords": [],
+  "author": "Apeksha Nanda",
+  "license": "ISC"
+}

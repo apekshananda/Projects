@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+    <header>
+        <h1>Apeksha's Rentals</h1>
+        <form action="/search" method="POST">
+            <input type="text" placeholder="Enter keyword" name="itemname" />
+            <button type="submit">Search</button>
+        </form>
+    </header>
+    <main>
+        <h1>Rental Catalogue</h1>
+        <section>
+            <form action="/update" method="POST">
+                <label>Modify Results:</label>
+                <select name="updates">
+                    <option>choose an option</option>
+                    <option>Available items</option>
+                    <option>Your Rentals</option>
+                </select>
+                <button type="submit">Update</button>
+            </form>
+            <form action="/return" method="POST">
+                <button>Return All items</button>
+            </form>
+        </section>
+         {{#each item}}
+        <div>
+           
+            <p>{{this.name}}</p>
+            <img src="{{this.id}}.jpg" />
+            <form action="/rent/{{this.id}}" method="POST">
+                {{#if this.Availability}}
+                <button >Rent</button>
+                {{else}}
+                <p>Rented by you</p>
+                {{/if}}
+            </form>
+        </div>
+        {{/each}}
+    </main>
+</body>
+
+</html>
